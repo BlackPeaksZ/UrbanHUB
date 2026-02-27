@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>UrbanHUB</title>
+</head>
+<body>
+<header>
+<!--    навигация-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="#main-content">Сервисы</a></li>
+            <li><a href="#events">События</a></li>
+            <li><a href="#footer">Контакты</a></li>
+        </ul>
+    </nav>
+<!--    условный выбор города-->
+    <div class="city-selector">
+        <span class="city-current">Хабаровск</span>
+    </div>
+</header>
+<main>
+<!--    главная часть -->
+    <article class="main-content" id="main-content">
+        <h1 class="main_text">Всё о вашем городе в одном месте</h1>
+        <meta name="description" content="UrbanHUB-навигатор городской жизни">
+        <button class="btn1">Исследовать сервисы</button>
+    </article>
+    <section class="card-content">
+        <h2 class="section-title">Городские сервисы</h2>
+        <div class="card1">
+            <div class="service-icon"><img src="/иконки%20сервисов/1e8d52a28026f3fe0683016ac5740632.png" alt="автобус"></div>
+            <h3 class="service-title">Транспорт</h3>
+            <p class="service-description">Движение автобусов, трамваев и троллейбусов в реальном времени.</p>
+        </div>
+        <div class="card2">
+            <div class="service-icon"><img src="/иконки%20сервисов/medical-healthcare-icon-set-collection-vector-ui-documents-websites-mobile-applications_1314480-40089.jpg" alt=медицина></div>
+            <h3 class="service-title">Медицина</h3>
+            <p class="service-description">Запись к врачу, аптеки рядом.</p>
+        </div>
+        <div class="card3">
+            <div class="service-icon"><img src="/иконки%20сервисов/set-linear-culture-icons-art-icons_115464-440.jpg" alt="театр"></div>
+            <h3 class="service-title">Культура</h3>
+            <p class="service-description">Афиша театров, музеев и кинотеатров города.</p>
+        </div>
+        <div class="card4">
+            <div class="service-icon"><img src="/иконки%20сервисов/иконы-школьного-обучения-установлены-на-белом-фоне-вектор-иллюстрация-258609957%20—%20копия.jpg" alt="обучение"></div>
+            <h3 class="service-title">Образование</h3>
+            <p class="service-description">Школы и детские сады.</p>
+        </div>
+    </section>
+</main>
+<!--события-->
+<div class="events" id="events">
+    <div class="events-content">
+        <span class="event-date">25 Сен</span>
+        <span class="event-category culture">Культура</span>
+    </div>
+    <div class="events-contents">
+        <h3 class="event-title">Фестиваль "Дальневосточная осень"</h3>
+        <p class="event-description">Традиционный гастрономический фестиваль на набережной Амура. Дегустация блюд, мастер-классы и концертная программа.</p>
+    </div>
+</div>
+<div class="events">
+    <div class="events-content">
+        <span class="event-date">1 Окт</span>
+        <span class="event-category sport">Спорт</span>
+    </div>
+    <div class="events-contents">
+        <h3 class="event-title">Открытие нового спортивного комплекса</h3>
+        <p class="event-description">Торжественное открытие спорткомплекса "Восточный" с бассейном, тренажерными залами и игровыми площадками.</p>
+    </div>
+</div>
+<div class="events">
+    <div class="events-content">
+        <span class="event-date">5 Окт</span>
+        <span class="event-category education">Образование</span>
+    </div>
+    <div class="events-contents">
+        <h3 class="event-title">Ярмарка вакансий для студентов</h3>
+        <p class="event-description">Встреча с работодателями края, консультации по трудоустройству и возможность пройти собеседование на месте.</p>
+    </div>
+</div>
+<!--подвал-->
+<footer class="footer">
+    <div class="container footer-container" id="footer">
+        <div class="footer-contact">
+            <h3 class="footer-title">Контакты</h3>
+            <address class="contact-address">
+                <img src="/Иконки%20для%20подвала/3.png" alt=""><p>ул. Муравьева-Амурского, 32, Хабаровск</p>
+                <img src="/Иконки%20для%20подвала/5.png" alt=""><p>+7 (4212) 40-70-01</p>
+                <img src="/Иконки%20для%20подвала/4.png" alt=""><p>info@urbanhub-khv.ru</p>
+            </address>
+        </div>
+        <div class="footer-social">
+            <h3 class="footer-title">Социальные сети</h3>
+            <div class="social-links">
+                <a href="#" class="social-link">
+                    <img src="/Иконки%20для%20подвала/1.png" alt="">
+                </a>
+                <a href="#" class="social-link">
+                    <img src="/Иконки%20для%20подвала/6.png" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2025 UrbanHUB. Прототип клиентской части для города Хабаровска.</p>
+            <p>Все права защищены.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
